@@ -1,0 +1,18 @@
+{
+  "name": "FuchsiaIO/ActionDispatch",
+  "type": "library",
+  "description": "A Dispatcher Based off of AuraPHP.",
+  "license": "MIT",
+  "keywords": ["FuchsiaIO", "ActionDispatch", "dispatcher"],
+  "authors": [
+    {
+      "name": "Benjamin J. Anderson",
+      "email": "andeb2804@gmail.com"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-nightly": "master"
+    }
+  }
+}
