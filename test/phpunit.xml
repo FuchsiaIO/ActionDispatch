@@ -1,0 +1,11 @@
+<phpunit bootstrap="bootstrap.php" backupGlobals="false">
+  <testsuites>
+    
+    <testsuite name="dispatcher">
+      <file>dispatcher/generator_test.php</file>
+      <file>dispatcher/route_test.php</file>
+      <file>dispatcher/router_test.php</file>
+    </testsuite>
+    
+  </testsuites> 
+</phpunit>
