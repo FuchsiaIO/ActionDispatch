@@ -11,7 +11,7 @@
  * @version v1.0.0
  */
    
-require_once 'src/config.php';
+require_once dirname(__FILE__).'/src/config.php';
 
 spl_autoload_register(function($class){
   $class = strtolower(preg_replace('/\B([A-Z])/', '_$1', str_replace(DISPATCHER_NAMESPACE, '', $class)));
